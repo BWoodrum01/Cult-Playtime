@@ -1,0 +1,113 @@
+
+
+body{
+  margin:0px;
+  padding:0;
+  background:darkred;}
+
+p{font-family:"Aclonica";
+color:white;
+font-size:25px;
+text-align:center;
+}
+
+h1{font-family:"Aclonica";
+color:white;
+font-size:60px;
+text-align:center;
+}
+
+h2{font-family:"Aclonica";
+color:white;
+font-size:15px;
+text-align:center;}
+
+img{
+  width:200px;
+  height:200px;
+  align-items: center;
+}
+
+
+
+.list{ font-family:"Aclonica";
+color:white;
+font-size:25px;
+line-height:15px;
+list-style:none;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;}
+
+.dinogifs img{
+  background:red;
+  border-style:dotted;
+  border-width: thick;
+  border-radius: 50px;
+}
+
+.dinogifs {
+  list-style-type: none;
+  display:grid;
+    justify-content: space-evenly;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 10px;
+ }
+
+
+
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:visited{
+  color:navy;
+  text-decoration: none;
+}
+a:hover{
+  color:green;
+  text-decoration: underline;
+}
+
+
+.up{
+  position:fixed;
+  max-width:80px;
+  bottom: 20px;
+  left:20px;
+}
+
+.upside{
+  position:fixed;
+  max-width:80px;
+  bottom: 20px;
+  left:20px;
+}
+
+@media only screen and (min-width:1500px){
+
+  p{font-family:"Aclonica";
+  color:white;
+  font-size:50px;
+  text-align:center;
+  }
+
+  h1{font-family:"Aclonica";
+  color:white;
+  font-size:120px;
+  text-align:center;
+  }
+
+  h2{font-family:"Aclonica";
+  color:white;
+  font-size:30px;
+  text-align:center;}
+
+  img{
+    width:400px;
+    height:400px;
+    align-items: center;
+  }
